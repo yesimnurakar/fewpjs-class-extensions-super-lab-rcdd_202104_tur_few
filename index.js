@@ -37,8 +37,6 @@ class  Evergreen extends Tree {
   }
 }
 
-let creature = new Pet('The Thing');
-let dog = new Dog('Spot', 'foxhound');
 
-Pet.definition();
-Dog.definition();
+Evergreen.definition();
+Deciduous.definition();
