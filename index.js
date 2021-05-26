@@ -24,6 +24,18 @@ class  Deciduous extends Tree {
     );
   }
 }
+class  Evergreen extends Tree {
+  constructor(species, name) {
+    super(name);
+    super(species)= species;
+  }
+
+  static definition() {
+    return (
+      super.definition() + ' Evergreens keep their leaves all year round.'
+    );
+  }
+}
 
 let creature = new Pet('The Thing');
 let dog = new Dog('Spot', 'foxhound');
