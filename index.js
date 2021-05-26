@@ -13,8 +13,9 @@ class Tree {
 // Inherits from Pet
 class  Deciduous extends Tree {
   constructor(species, name) {
-    this.name = name;
     super(species);
+    this.name = name;
+  
   }
 
   static definition() {
@@ -25,8 +26,8 @@ class  Deciduous extends Tree {
 }
 class  Evergreen extends Tree {
   constructor(species, name) {
-     super(name);
     super(species);
+        this.name = name;
    }
 
   static definition() {
