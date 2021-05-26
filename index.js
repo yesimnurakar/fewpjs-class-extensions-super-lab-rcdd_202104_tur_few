@@ -25,7 +25,7 @@ class  Deciduous extends Tree {
 }
 class  Evergreen extends Tree {
   constructor(species, name) {
-    
+
     super(species);
     set name(name) {
       this.name = name;
