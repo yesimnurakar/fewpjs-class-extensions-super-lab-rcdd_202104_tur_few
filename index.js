@@ -15,7 +15,7 @@ class Tree {
 class  Deciduous extends Tree {
   constructor(species, name) {
     super(name);
-    super(species)= species;
+    super(species);
   }
 
   static definition() {
@@ -27,7 +27,7 @@ class  Deciduous extends Tree {
 class  Evergreen extends Tree {
   constructor(species, name) {
     super(name);
-    super(species)= species;
+    super(species);
   }
 
   static definition() {
